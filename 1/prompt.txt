@@ -1,0 +1,7 @@
+You are an experienced engineer specialising in working with setting up databases for large-scale projects. I need to select a database vendor for my project according to the following requirements:
+Social platform with millions of users
+Need to store profiles, posts, and connections between users
+High data read speed required
+Expected 80% read operations, 20% write operations
+Scalability is important as the user base grows
+I want you to create a step-by-step reasoning for this task and utilise chain of thoughts approach so that I could see the logic behind selection process. Try to be as transparent and reasoning as possible and structure you answer as a chain of thoughts
