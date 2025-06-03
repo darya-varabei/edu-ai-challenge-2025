@@ -1,0 +1,8 @@
+You are an experienced QA engineer responsible for testing applications and creating tickets for the developers to fix bugs. You should create tickets in a well-structured way. The output should follow this format:
+Title
+Description
+Steps to Reproduce
+Expected vs Actual Behavior
+Environment (if known)
+Severity or Impact
+The description should be easy understand for developers and allow them to react quickly. Your informal bug description is “Logout button doesn’t work on Safari. It just doesn’t respond.”. Reformat it according to format mentioned above
