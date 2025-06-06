@@ -1,0 +1,48 @@
+{
+  "feedbackAnalysis": [
+    {
+      "sentiment": "Negative",
+      "isRelevant": true,
+      "mainSubject": "Sensor tracking and hardware reliability",
+      "positives": [],
+      "painPoints": [
+        "Sensor stops tracking intermittently",
+        "Issue persists even when plugged in",
+        "Initial unit had faulty dongle",
+        "High price point ($150) with reliability issues"
+      ],
+      "improvementSuggestions": [
+        "Fix sensor tracking interruptions",
+        "Improve dongle reliability"
+      ],
+      "featuresMentioned": [
+        "Sensor performance",
+        "Dongle functionality",
+        "Price"
+      ],
+      "userExpertise": "Moderate"
+    },
+    {
+      "sentiment": "Mixed",
+      "isRelevant": true,
+      "mainSubject": "Value for money and performance",
+      "positives": [
+        "Product has no flaws",
+        "Good performance"
+      ],
+      "painPoints": [
+        "Price is too high compared to similar cheaper products",
+        "Not worth the premium cost given performance parity with lower-priced alternatives"
+      ],
+      "improvementSuggestions": [
+        "Reduce price to improve value proposition"
+      ],
+      "featuresMentioned": [
+        "Performance",
+        "Price",
+        "Specs"
+      ],
+      "userExpertise": "Moderate"
+    }
+  ]
+}
