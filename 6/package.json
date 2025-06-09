@@ -1,0 +1,23 @@
+{
+  "name": "enigma-machine",
+  "version": "1.0.0",
+  "description": "Fixed Enigma Machine Implementation",
+  "main": "enigma.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:verbose": "jest --verbose"
+  },
+  "keywords": ["enigma", "cryptography", "cipher"],
+  "author": "Developer",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageDirectory": "coverage",
+    "coverageReporters": ["text", "lcov", "html"],
+    "testEnvironment": "node"
+  }
+} 

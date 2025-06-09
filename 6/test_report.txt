@@ -1,0 +1,52 @@
+
+> enigma-machine@1.0.0 test:coverage
+> jest --coverage
+
+PASS ./enigma.test.js
+  Enigma Machine Tests
+    Basic Functionality
+      ✓ should encrypt and decrypt text correctly without plugboard (1 ms)
+      ✓ should encrypt and decrypt text correctly with plugboard
+      ✓ should handle single character encryption/decryption
+      ✓ should preserve non-alphabetic characters
+      ✓ should convert lowercase to uppercase
+    Rotor Functionality
+      ✓ should create rotor with correct properties (1 ms)
+      ✓ should step rotor correctly
+      ✓ should detect notch position correctly
+      ✓ should perform forward substitution
+      ✓ should perform backward substitution (1 ms)
+    Rotor Stepping
+      ✓ should step rightmost rotor on each character
+      ✓ should handle rotor turnover (double stepping)
+    Ring Settings
+      ✓ should work with different ring settings
+    Different Rotor Positions
+      ✓ should work with different starting positions (1 ms)
+    Plugboard Functionality
+      ✓ plugboardSwap should swap characters correctly
+      ✓ should handle empty plugboard
+      ✓ should work with multiple plugboard pairs
+    Different Rotor Combinations
+      ✓ should work with different rotor order
+    Edge Cases
+      ✓ should handle empty string
+      ✓ should handle string with only spaces and numbers (1 ms)
+      ✓ should handle maximum rotor position values
+    Historical Accuracy Tests
+      ✓ should produce different outputs for same input with different settings
+      ✓ should never encrypt a letter to itself (1 ms)
+    Long Message Tests
+      ✓ should handle long messages correctly
+
+-----------|---------|----------|---------|---------|-------------------
+File       | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------|---------|----------|---------|---------|-------------------
+All files  |   77.41 |       70 |   68.42 |      75 |                   
+ enigma.js |   77.41 |       70 |   68.42 |      75 | 101-125,138       
+-----------|---------|----------|---------|---------|-------------------
+Test Suites: 1 passed, 1 total
+Tests:       24 passed, 24 total
+Snapshots:   0 total
+Time:        0.13 s, estimated 1 s
+Ran all test suites.
