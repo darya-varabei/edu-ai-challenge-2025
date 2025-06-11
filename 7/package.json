@@ -1,0 +1,41 @@
+{
+  "name": "sea-battle-refactored",
+  "version": "1.0.0",
+  "description": "A modernized Sea Battle game with comprehensive testing",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:coverage-report": "jest --coverage --coverageReporters=text > test_report.txt"
+  },
+  "keywords": ["battleship", "sea-battle", "game", "javascript", "es6"],
+  "author": "Developer",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "@babel/preset-env": "^7.23.0",
+    "@babel/core": "^7.23.0",
+    "babel-jest": "^29.7.0"
+  },
+  "babel": {
+    "presets": ["@babel/preset-env"]
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/index.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 60,
+        "functions": 60,
+        "lines": 60,
+        "statements": 60
+      }
+    }
+  }
+} 
