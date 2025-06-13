@@ -1,0 +1,37 @@
+{
+  "name": "robust-validation-library",
+  "version": "1.0.0",
+  "description": "A robust validation library for complex data structures with comprehensive type checking",
+  "main": "schema.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:coverage-report": "jest --coverage --coverageReporters=text-lcov > test_report.txt"
+  },
+  "keywords": [
+    "validation",
+    "schema",
+    "data-validation",
+    "type-checking",
+    "javascript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "jest": "^29.5.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "schema.js"
+    ],
+    "coverageDirectory": "coverage",
+    "coverageReporters": [
+      "text",
+      "lcov",
+      "html"
+    ]
+  }
+} 
