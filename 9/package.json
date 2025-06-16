@@ -1,0 +1,25 @@
+{
+  "name": "service-analyzer",
+  "version": "1.0.0",
+  "description": "A comprehensive console application that generates detailed markdown reports analyzing digital services and products using OpenAI's GPT models.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js"
+  },
+  "keywords": [
+    "openai",
+    "gpt-4o-mini",
+    "service-analysis",
+    "business-analysis",
+    "markdown-reports",
+    "console-app",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "openai": "^4.52.7"
+  }
+} 
