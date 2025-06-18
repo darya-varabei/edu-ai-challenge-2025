@@ -1,0 +1,25 @@
+{
+  "name": "openai-api-app",
+  "version": "1.0.0",
+  "description": "A JavaScript application that utilizes OpenAI API with GPT-4.1-mini and Whisper-1",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "search": "node product-search.js"
+  },
+  "keywords": ["openai", "gpt", "whisper", "ai"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^4.20.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+} 
