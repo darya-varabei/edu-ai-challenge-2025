@@ -1,23 +1,19 @@
 {
-  "name": "openai-api-app",
+  "name": "ai-product-search",
   "version": "1.0.0",
-  "description": "A JavaScript application that utilizes OpenAI API with GPT-4.1-mini and Whisper-1",
-  "main": "index.js",
+  "description": "AI-powered product search tool using OpenAI GPT-4.1-mini with function calling",
+  "main": "product-search.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
-    "dev": "node --watch index.js",
+    "start": "node product-search.js",
     "search": "node product-search.js"
   },
-  "keywords": ["openai", "gpt", "whisper", "ai"],
+  "keywords": ["openai", "gpt", "ai", "product-search", "function-calling", "nlp"],
   "author": "",
   "license": "MIT",
   "dependencies": {
     "openai": "^4.20.1",
     "dotenv": "^16.3.1"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.2"
   },
   "engines": {
     "node": ">=18.0.0"

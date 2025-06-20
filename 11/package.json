@@ -1,0 +1,19 @@
+{
+  "name": "audio-transcription-analyzer",
+  "version": "1.0.0",
+  "description": "Console application for audio transcription and analysis using OpenAI API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "openai": "^4.28.0",
+    "dotenv": "^16.4.1",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+} 

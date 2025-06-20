@@ -1,12 +1,12 @@
-# OpenAI API JavaScript Application
+# AI Product Search Application
 
-A comprehensive JavaScript application suite that demonstrates OpenAI API integration with GPT-4.1-mini and Whisper-1 models, featuring an AI-powered product search tool.
+An intelligent product search tool that uses OpenAI's GPT-4.1-mini with function calling to understand natural language queries and filter products from a dataset.
 
 ## Features
 
-- 💬 **Chat with GPT-4.1-mini**: Generate text completions and have conversations
-- 🎤 **Speech-to-Text with Whisper-1**: Transcribe audio files to text
-- 🛍️ **AI Product Search**: Natural language product search with OpenAI function calling
+- 🛍️ **AI-Powered Search**: Natural language product search with OpenAI function calling
+- 🏷️ **Smart Filtering**: Category, price, rating, and stock-based filtering
+- 🧠 **Natural Language**: Express search needs in plain English
 - 🛠️ **Easy Setup**: Simple configuration with environment variables
 
 ## Prerequisites
@@ -33,54 +33,23 @@ A comprehensive JavaScript application suite that demonstrates OpenAI API integr
    OPENAI_API_KEY=your_actual_api_key_here
    ```
 
-4. **Run the applications:**
-
-   **Basic OpenAI API Examples:**
+4. **Run the application:**
    ```bash
    npm start
    ```
-
-   **AI Product Search Tool:**
+   
+   Or alternatively:
    ```bash
    npm run search
    ```
 
-   **Development with auto-restart:**
-   ```bash
-   npm run dev
-   ```
-
 ## Usage
-
-### Basic Chat with GPT-4.1-mini
-
-```javascript
-import { chatWithGPT } from './index.js';
-
-const response = await chatWithGPT(
-  "What is artificial intelligence?",
-  "You are a helpful AI assistant."
-);
-console.log(response);
-```
-
-### Transcribe Audio with Whisper-1
-
-```javascript
-import { transcribeAudio } from './index.js';
-
-// Make sure you have an audio file in your project directory
-const transcription = await transcribeAudio('./audio-file.mp3');
-console.log(transcription);
-```
-
-### AI Product Search Tool
 
 The product search tool uses OpenAI's function calling to understand natural language queries and filter products from a JSON dataset.
 
-**Start the search tool:**
+**Start the application:**
 ```bash
-npm run search
+npm start
 ```
 
 **Example searches:**
@@ -100,18 +69,14 @@ npm run search
 
 
 
-## Supported Audio Formats for Whisper
 
-Whisper supports the following audio formats:
-- mp3, mp4, mpeg, mpga, m4a, wav, webm
 
 ## File Structure
 
 ```
-openai-api-app/
+ai-product-search/
 ├── package.json          # Dependencies and scripts
-├── index.js             # Basic OpenAI API examples
-├── product-search.js    # AI Product Search application
+├── product-search.js    # Main AI Product Search application
 ├── products.json        # Product dataset for search
 ├── .env.example         # Environment variables template
 ├── .env                 # Your actual environment variables (create this)
